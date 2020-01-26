@@ -83,8 +83,54 @@
       </div>
     </section>
     <section id="contact">
-      contact
+      <h1 class="text-center mt-3 pt-3">Contact Me</h1>
+      <form
+        id="fs-frm"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/kil.andrew@gmail.com"
+        method="post"
+        id="contact"
+      >
+        <fieldset id="fs-frm-inputs">
+          <div class="name-container">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required=""
+            />
+          </div>
+          <div class="email-container">
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="Email"
+              required=""
+            />
+          </div>
+          <div class="message-container">
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Message"
+              required=""
+            ></textarea>
+          </div>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+          <input type="submit" id="submit-button" value="Send" />
+        </fieldset>
+      </form>
     </section>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

@@ -26,3 +26,45 @@ li {
 .name,
 .position {
   font-family: "Roboto Condensed", sans-serif; }
+
+#contact {
+  background-color: #e9ecef; }
+
+form {
+  display: block; }
+
+form fieldset {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; }
+
+form fieldset input {
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-indent: 1%;
+  width: 50%; }
+
+form fieldset textarea {
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 200px;
+  font-size: 16px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding-top: 1%;
+  text-indent: 1%;
+  width: 50%; }
+
+form fieldset #submit-button {
+  background-color: #07689f;
+  color: #fff;
+  cursor: pointer;
+  width: 100px; }
+
+form fieldset #submit-button:hover {
+  background-color: #fff;
+  color: #07689f; }
