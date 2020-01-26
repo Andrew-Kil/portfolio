@@ -13,6 +13,20 @@ li {
 * {
   font-family: "Cabin", sans-serif;
 }
+.nav-ul {
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-ul li a {
+  display: block;
+  color: white;
+  padding: 16px;
+}
+.nav-ul li a:hover {
+  background-color: #111111;
+}
 .icons {
   color: black;
 }
