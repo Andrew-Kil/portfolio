@@ -89,3 +89,15 @@ form fieldset #submit-button {
 form fieldset #submit-button:hover {
   background-color: #fff;
   color: #07689f; }
+
+footer {
+  background-color: #333333; }
+
+.ak-monogram {
+  width: 30px; }
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

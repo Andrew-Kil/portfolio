@@ -7,58 +7,73 @@ li {
   padding: 0;
   text-decoration: none;
 }
+
 li {
   list-style-type: none;
 }
+
 * {
   font-family: "Cabin", sans-serif;
 }
+
 .nav-ul {
   overflow: hidden;
   background-color: #333333;
   display: flex;
   justify-content: space-around;
 }
+
 .nav-ul li a {
   display: block;
   color: white;
   padding: 16px;
 }
+
 .nav-ul li a:hover {
   background-color: #111111;
 }
+
 .icons {
   color: black;
 }
+
 .codewars-icon {
   width: 16px;
   height: 16px;
 }
+
 .name {
   text-align: left;
   font-size: 46px;
 }
+
 .position {
   font-size: 32px;
 }
+
 .name,
 .position {
   font-family: "Roboto Condensed", sans-serif;
 }
+
 .codewars-img {
   width: 75%;
 }
+
 #contact {
   background-color: #e9ecef;
 }
+
 form {
   display: block;
 }
+
 form fieldset {
   margin: 0 auto;
   text-align: center;
   width: 100%;
 }
+
 form fieldset input {
   border: 2px solid gray;
   border-radius: 5px;
@@ -69,6 +84,7 @@ form fieldset input {
   text-indent: 1%;
   width: 50%;
 }
+
 form fieldset textarea {
   border: 2px solid gray;
   border-radius: 5px;
@@ -80,13 +96,30 @@ form fieldset textarea {
   text-indent: 1%;
   width: 50%;
 }
+
 form fieldset #submit-button {
   background-color: #07689f;
   color: #fff;
   cursor: pointer;
   width: 100px;
 }
+
 form fieldset #submit-button:hover {
   background-color: #fff;
   color: #07689f;
+}
+
+footer {
+  background-color: #333333;
+}
+
+.ak-monogram {
+  width: 30px;
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
