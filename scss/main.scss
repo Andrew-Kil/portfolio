@@ -13,9 +13,6 @@ li {
 * {
   font-family: "Cabin", sans-serif;
 }
-.profile-picture {
-  border-radius: 50%;
-}
 .name {
   text-align: left;
   font-size: 46px;
@@ -26,6 +23,9 @@ li {
 .name,
 .position {
   font-family: "Roboto Condensed", sans-serif;
+}
+.codewars-img {
+  width: 75%;
 }
 #contact {
   background-color: #e9ecef;
