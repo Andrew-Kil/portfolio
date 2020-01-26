@@ -10,6 +10,20 @@ li {
 li {
   list-style-type: none;
 }
+* {
+  font-family: "Cabin", sans-serif;
+}
 .profile-picture {
   border-radius: 50%;
+}
+.name {
+  text-align: left;
+  font-size: 46px;
+}
+.position {
+  font-size: 32px;
+}
+.name,
+.position {
+  font-family: "Roboto Condensed", sans-serif;
 }
