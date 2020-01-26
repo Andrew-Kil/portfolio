@@ -13,6 +13,13 @@ li {
 * {
   font-family: "Cabin", sans-serif; }
 
+.icons {
+  color: black; }
+
+.codewars-icon {
+  width: 16px;
+  height: 16px; }
+
 .name {
   text-align: left;
   font-size: 46px; }
