@@ -26,18 +26,48 @@
     <link rel="stylesheet" href="./github-calendar/github-calendar.css" />
     <link rel="stylesheet" href="./dist/css/main.css" />
     <script src="https://kit.fontawesome.com/274b351aab.js"></script>
-    <title>Andrew Kil | Portfolio</title>
+    <title>Andrew Kil</title>
   </head>
   <body>
-    <nav>
-      <ul class="nav-ul">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#github">GitHub</a></li>
-        <li><a href="#codewars">Codewars</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"
+        ><img class="nav-monogram rounded-circle" src="assets/AK_monogram.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="nav-ul w-100 navbar-nav mr-auto d-flex justify-content-around"
+        >
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#about">About</a>
+          </li>
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#github">GitHub</a>
+          </li>
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#codewars">Codewars</a>
+          </li>
+          <li class="nav-item text-center col-lg-2">
+            <a class="nav-link rounded" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header>
       <section class="jumbotron">
@@ -52,7 +82,17 @@
           <div class="pl-5">
             <h1 class="name text-center">Andrew Kil</h1>
             <h2 class="position text-center">Software Developer</h2>
-            <ul class="social list-inline d-flex justify-content-around">
+            <ul
+              class="social list-inline d-flex justify-content-around align-items-center"
+            >
+              <li class="list-inline-item">
+                <a href="#codewars"
+                  ><img
+                    src="/assets/codewars.svg"
+                    alt="codewars icon"
+                    class="icons codewars-icon"
+                /></a>
+              </li>
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/andrew-kil/"
                   ><i class="icons fab fa-linkedin-in"></i
@@ -64,17 +104,9 @@
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href="/assets/resume.pdf" target="_blank"
+                <a href="/assets/resume.pdf" target="_blank" class="icons"
                   ><i class="icons fas fa-file-pdf"></i
                 ></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#codewars"
-                  ><img
-                    src="/assets/codewars.svg"
-                    alt="codewars icon"
-                    class="icons codewars-icon"
-                /></a>
               </li>
               <li class="list-inline-item">
                 <a href="#contact"
@@ -171,7 +203,7 @@
     </section>
     <footer class="d-flex justify-content-center pt-3 pb-3">
       <img
-        class="ak-monogram mr-1 rounded"
+        class="ak-monogram mr-1 rounded-circle"
         src="/assets/AK_monogram.png"
         alt="AK monogram"
       />
