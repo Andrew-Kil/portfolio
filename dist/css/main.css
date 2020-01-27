@@ -13,26 +13,21 @@ li {
 * {
   font-family: "Cabin", sans-serif; }
 
-.nav-ul {
-  overflow: hidden;
-  background-color: #333333;
-  display: flex;
-  justify-content: space-around; }
+.nav-monogram {
+  width: 50px; }
 
 .nav-ul li a {
   display: block;
   color: white;
   padding: 16px; }
 
-.nav-ul li a:hover {
-  background-color: #111111; }
-
 .icons {
   color: black; }
 
 .codewars-icon {
-  width: 16px;
-  height: 16px; }
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1px; }
 
 .name {
   text-align: left;
