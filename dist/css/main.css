@@ -33,18 +33,12 @@ li {
   text-align: left;
   font-size: 46px; }
 
-.position {
-  font-size: 32px; }
-
 .name,
 .position {
   font-family: "Roboto Condensed", sans-serif; }
 
 .codewars-img {
   width: 75%; }
-
-#contact {
-  background-color: #e9ecef; }
 
 form {
   display: block; }
