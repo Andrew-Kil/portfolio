@@ -21,6 +21,9 @@ li {
   color: white;
   padding: 16px; }
 
+.anchor {
+  padding-top: 76px; }
+
 .icons {
   color: black; }
 
@@ -32,6 +35,9 @@ li {
 .name {
   text-align: left;
   font-size: 46px; }
+
+.position {
+  font-size: 32px; }
 
 .name,
 .position {
