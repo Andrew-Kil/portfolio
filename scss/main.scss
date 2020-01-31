@@ -31,9 +31,9 @@ li {
 }
 
 .codewars-icon {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 1px;
+  width: 22px;
+  height: 22px;
+  margin-bottom: 2px;
 }
 
 .name {
@@ -48,6 +48,11 @@ li {
 .name,
 .position {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.skills-icon {
+  width: 50%;
+  height: 50%;
 }
 
 .codewars-img {
@@ -97,10 +102,6 @@ form fieldset #submit-button {
 form fieldset #submit-button:hover {
   background-color: #fff;
   color: #07689f;
-}
-
-footer {
-  background-color: #333333;
 }
 
 .ak-monogram {
