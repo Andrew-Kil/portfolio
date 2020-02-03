@@ -33,11 +33,10 @@ li {
   margin-bottom: 2px; }
 
 .name {
-  text-align: left;
   font-size: 46px; }
 
 .position {
-  font-size: 32px; }
+  font-size: 24px; }
 
 .name,
 .position {
@@ -90,7 +89,8 @@ form fieldset #submit-button:hover {
   color: #07689f; }
 
 .ak-monogram {
-  width: 30px; }
+  width: 30px;
+  height: 30px; }
 
 .copyright {
   color: white;
