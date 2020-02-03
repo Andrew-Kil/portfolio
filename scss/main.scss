@@ -26,6 +26,10 @@ li {
   padding: 16px;
 }
 
+.jumbotron {
+  height: 100vh;
+}
+
 .anchor {
   padding-top: 76px;
 }
@@ -60,6 +64,10 @@ li {
 
 .codewars-img {
   width: 75%;
+}
+
+.calendar {
+  width: 50%;
 }
 
 form {
@@ -117,4 +125,28 @@ form fieldset #submit-button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .calendar {
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .calendar {
+    width: 70%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .calendar {
+    width: 75%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .calendar {
+    width: 80%;
+  }
 }
