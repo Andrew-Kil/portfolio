@@ -81,7 +81,6 @@ form fieldset textarea {
   width: 50%; }
 
 form fieldset #submit-button {
-  background-color: #07689f;
   color: #fff;
   cursor: pointer;
   width: 100px; }
@@ -90,12 +89,22 @@ form fieldset #submit-button:hover {
   background-color: #fff;
   color: #07689f; }
 
+footer {
+  border-top: 1px solid #dfdfdf; }
+
+.icons {
+  color: black; }
+
+.codewars-icon {
+  width: 22px;
+  margin-bottom: 2px; }
+
 .ak-monogram {
   width: 30px;
   height: 30px; }
 
 .footer-text {
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center; }
