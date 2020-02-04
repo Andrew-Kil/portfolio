@@ -56,9 +56,8 @@ u:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.skills-icon {
+.about-text {
   width: 50%;
-  height: 50%;
 }
 
 .codewars-img {
@@ -139,6 +138,10 @@ footer {
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .about-text {
+    width: 60%;
+  }
+
   .calendar {
     width: 65%;
   }
@@ -150,6 +153,10 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .about-text {
+    width: 65%;
+  }
+
   .calendar {
     width: 70%;
   }
@@ -161,6 +168,10 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .about-text {
+    width: 70%;
+  }
+
   .calendar {
     width: 75%;
   }
@@ -172,6 +183,10 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .about-text {
+    width: 75%;
+  }
+
   .calendar {
     width: 80%;
   }
