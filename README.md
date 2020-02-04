@@ -1,11 +1,13 @@
-# To-Do
+<h1>https://andrewkil.com</h1>
 
-## Complete
+## To-Do
+
+### Complete
 
 - [x] make github calendar widget responsive
 - [x] clicking on nav links navigates user to incorrect position on website due to the sticky navbar
 
-## Incomplete
+### Incomplete
 
 - [ ] considering website performance, replace project screenshots with gifs to demo the site
 - [ ] make sure project images are all the same size (some are slightly off)
