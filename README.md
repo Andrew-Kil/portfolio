@@ -13,6 +13,7 @@
 - [ ] make sure project images are all the same size (some are slightly off)
 - [ ] in projects, the small tag will cause the height to vary depending on how much text is inside, make them uniform
 - [ ] replace png images with image types that decrease loading time
+  - https://web.dev/serve-responsive-images/
 - [ ] adjust sizing/width of components such as about text, contact form on mobile
 - [ ] update about text
 - [ ] when user clicks on a navlink in the navbar hamburger menu, find a way to collapse the hamburger menu instead of having it persist
