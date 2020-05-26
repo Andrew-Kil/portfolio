@@ -87,7 +87,7 @@
               src="/assets/profile-picture.jpg"
               alt="profile picture"
               class="rounded-circle img-fluid"
-              style="width: 225px"
+              style="width: 225px;"
             />
           </div>
           <div class="pl-3">
@@ -252,6 +252,46 @@
                 </div>
               </div>
             </div>
+            <!-- Sleep App -->
+            <div class="col-md-6 mb-5">
+              <div class="card border-secondary">
+                <img
+                  class="card-img-top"
+                  src="assets/projects/project6.png"
+                  alt="Sleep App screenshot"
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-center">Sleep Tracker</h3>
+                  <p class="card-text mb-1">
+                    Add logs to store information about sleeping habits and
+                    dreams
+                  </p>
+                  <small class="text-muted"
+                    >React, Node, Firebase, PostgreSQL, Material-UI</small
+                  >
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div class="btn-group w-100">
+                      <a
+                        target="_blank"
+                        class="btn btn-sm btn-outline-primary"
+                        role="button"
+                        disabled
+                        >Under Construction</a
+                      >
+                      <a
+                        href="https://github.com/Andrew-Kil/sleep-tracker"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-dark"
+                        role="button"
+                        >Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Scare the Crow -->
             <div class="col-md-6 mb-5">
               <div class="card border-secondary">
@@ -281,6 +321,45 @@
                       >
                       <a
                         href="https://github.com/Andrew-Kil/scare-the-crow"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-dark"
+                        role="button"
+                        >Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- COVID-19 Tracker -->
+            <div class="col-md-6 mb-5">
+              <div class="card border-secondary">
+                <img
+                  class="card-img-top"
+                  src="assets/projects/project7.png"
+                  alt="Connect Four screenshot"
+                />
+                <div class="card-body">
+                  <h3 class="card-title text-center">COVID-19 Tracker</h3>
+                  <p class="card-text mb-1">
+                    Visualize data about COVID-19 using Chart.js
+                  </p>
+                  <small class="text-muted"
+                    >React Hooks, Material-UI, Chart.js</small
+                  >
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div class="btn-group w-100">
+                      <a
+                        href="https://covid19tracker-react.netlify.app/"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-primary"
+                        role="button"
+                        >Live</a
+                      >
+                      <a
+                        href="https://github.com/Andrew-Kil/covid-19-tracker"
                         target="_blank"
                         class="btn btn-sm btn-outline-dark"
                         role="button"
@@ -520,7 +599,7 @@
       GitHubCalendar(".calendar", "Andrew-Kil", { responsive: true });
     </script>
     <script>
-      $(".navbar-nav>li>a").on("click", function() {
+      $(".navbar-nav>li>a").on("click", function () {
         $(".navbar-collapse").collapse("hide");
       });
     </script>
